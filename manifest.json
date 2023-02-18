@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Chats Extractor",
+    "version": "1.0.0",
+    "description": "ChatGPT Chats Extractor extracts all the messages in correct order from the current chat in ChatGPT",
+    "icons": {
+      "16": "chatgpticon.png",
+      "48": "chatgpticon.png",
+      "128": "chatgpticon.png"
+    },
+    "author": "David Akins <github @gooddavvy> & Sunday Akins <github @asolpshinning>",
+    "action": {
+      "default_icon": {
+        "16": "chatgpticon.png",
+        "24": "chatgpticon.png",
+        "32": "chatgpticon.png"
+      },
+      "default_title": "ChatGPT Chats Extractor",
+      "default_popup": "index.html"
+    },
+    "host_permissions": [
+      "https://*/*",
+      "http://*/*"
+    ],
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ]
+  }
+  
